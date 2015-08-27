@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\SplashScene">
+      <UniqueIdentifier>{87dc1391-de43-4857-8412-034f8e68de13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\HomeScene">
+      <UniqueIdentifier>{10514b8e-e2fa-45a4-aa52-c8d399a626d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\LevelOneScene">
+      <UniqueIdentifier>{0e9b1baf-7ce0-4859-b2b4-193626de30b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\LevelTwoScene">
+      <UniqueIdentifier>{a8c7b081-3f0f-4d30-90d4-743d37972807}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\LevelThreeScene">
+      <UniqueIdentifier>{836ad27b-bfce-4589-a7ff-ea8aca2b16d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\LevelFourScene">
+      <UniqueIdentifier>{cbbfe01b-7931-4e20-9e5b-23c3ae7bf688}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\LevelFiveScene">
+      <UniqueIdentifier>{763040a7-0737-4784-9e4d-91643b0a58d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\LevelSixScene">
+      <UniqueIdentifier>{43689afc-023f-4f2f-80c3-480a7cad3bc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\LevelSevenScene">
+      <UniqueIdentifier>{2d92f5ba-bf93-4fe5-bf6f-7d79d75fdb48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\LevelEightScene">
+      <UniqueIdentifier>{f34f0732-0ec3-4dbd-a3a5-bf784a7b514d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\PauseScene">
+      <UniqueIdentifier>{6dfd30a5-4b32-4f93-96e6-eb95e1b4343a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="SplashScene.cpp">
+      <Filter>src\SplashScene</Filter>
+    </ClCompile>
+    <ClCompile Include="HomeScene.cpp">
+      <Filter>src\HomeScene</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelOneScene.cpp">
+      <Filter>src\LevelOneScene</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelTwoScene.cpp">
+      <Filter>src\LevelTwoScene</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelThreeScene.cpp">
+      <Filter>src\LevelThreeScene</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelFourScene.cpp">
+      <Filter>src\LevelFourScene</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelFiveScene.cpp">
+      <Filter>src\LevelFiveScene</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelSixScene.cpp">
+      <Filter>src\LevelSixScene</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelSevenScene.cpp">
+      <Filter>src\LevelSevenScene</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelEightScene.cpp">
+      <Filter>src\LevelEightScene</Filter>
+    </ClCompile>
+    <ClCompile Include="SplashLayer.cpp">
+      <Filter>src\SplashScene</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelsLayer.cpp">
+      <Filter>src\HomeScene</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseScene.cpp">
+      <Filter>src\PauseScene</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletLayer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseLayer.cpp">
+      <Filter>src\PauseScene</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionDetectionLayer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="SplashScene.h">
+      <Filter>src\SplashScene</Filter>
+    </ClInclude>
+    <ClInclude Include="HomeScene.h">
+      <Filter>src\HomeScene</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelOneScene.h">
+      <Filter>src\LevelOneScene</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelTwoScene.h">
+      <Filter>src\LevelTwoScene</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelThreeScene.h">
+      <Filter>src\LevelThreeScene</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelFourScene.h">
+      <Filter>src\LevelFourScene</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelFiveScene.h">
+      <Filter>src\LevelFiveScene</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelSixScene.h">
+      <Filter>src\LevelSixScene</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelSevenScene.h">
+      <Filter>src\LevelSevenScene</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelEightScene.h">
+      <Filter>src\LevelEightScene</Filter>
+    </ClInclude>
+    <ClInclude Include="SplashLayer.h">
+      <Filter>src\SplashScene</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelsLayer.h">
+      <Filter>src\HomeScene</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseScene.h">
+      <Filter>src\PauseScene</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletLayer.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseLayer.h">
+      <Filter>src\PauseScene</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionDetectionLayer.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Macros.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
